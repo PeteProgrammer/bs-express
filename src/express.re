@@ -1,4 +1,4 @@
-type done_;
+type done_ = unit;
 /** abstract type which ensure middleware function must either
     call the [next] function or one of the [send] function on the
     response object.
