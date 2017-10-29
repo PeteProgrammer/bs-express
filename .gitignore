@@ -24,6 +24,7 @@ setup.log
 
 node_modules
 npm-debug.log
-lib/
+lib/ocaml
+lib/bs
 
 tests/test.data
