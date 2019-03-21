@@ -282,7 +282,7 @@ module Static = {
   type options;
   let defaultOptions: unit => options = () => (Obj.magic(Js_obj.empty()): options);
   [@bs.set] external dotfiles : (options, string) => unit = "";
-  [@bs.set] external etag : (options, Js.boolean) => unit = "";
+  [@bs.set] external etag : (options, bool) => unit = "";
   /* ... add all the other options */
   type t;
   [@bs.module "express"] external make : (string, options) => t = "static";
